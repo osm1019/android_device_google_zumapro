@@ -563,6 +563,7 @@
     <!-- The receiver class of the intent action to start satellite non-emergency mode -->
     <string name="config_satellite_carrier_roaming_non_emergency_session_class">com.google.android.apps.stargate.sessionmanager.SessionManagerReceiver_Receiver</string>
 
+
     <!-- Whether to show the system notification to users whenever there is a change
          in the satellite availability state at the current location. -->
     <bool name="config_satellite_should_notify_availability">false</bool>
@@ -586,4 +587,12 @@
     <integer-array name="config_verizon_satellite_enabled_tagids">
         <item>1001</item>
     </integer-array>
+
+    <!-- User activity timeout: Maximum screen dim duration as a percentage of screen off timeout.
+    -->
+    <fraction name="config_maximumScreenDimRatio">33%</fraction>
+
+    <!-- Whether device supports increased touch sensitvity -->
+    <bool name="config_supportGloveMode">true</bool>
+
 </resources>
