@@ -37,5 +37,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     TetheringOverlay
 
+# PixelDisplayService
+PRODUCT_PACKAGES += \
+    com.android.pixeldisplayservice.auto_generated_rro_product_adevtool__
+
 # Touch
 include hardware/google/pixel/touch/device.mk
