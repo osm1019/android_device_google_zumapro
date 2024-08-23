@@ -25,4 +25,5 @@
     <bool name="config_clear_calling_enabled">true</bool>
     <!-- Reverse Charging -->
     <bool name="config_show_reverse_charging">true</bool>
+
 </resources>
