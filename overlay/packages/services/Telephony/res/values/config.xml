@@ -34,4 +34,7 @@
 
     <!-- Whether to turn off non-emergency nb iot ntn satellite for emergency call -->
     <bool name="config_turn_off_non_emergency_nb_iot_ntn_satellite_for_emergency_call">false</bool>
+
+    <!-- The package name for the platform carrier config app, bundled with system image. -->
+    <string name="platform_carrier_config_package" translatable="false">com.google.android.carrier</string>	
 </resources>
