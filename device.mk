@@ -1352,3 +1352,7 @@ PRODUCT_PRODUCT_PROPERTIES += \
 
 PRODUCT_NO_BIONIC_PAGE_SIZE_MACRO := true
 PRODUCT_CHECK_PREBUILT_MAX_PAGE_SIZE := true
+
+# AiAi Config
+PRODUCT_COPY_FILES += \
+    device/google/zumapro/allowlist_com.google.android.as.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/allowlist_com.google.android.as.xml
