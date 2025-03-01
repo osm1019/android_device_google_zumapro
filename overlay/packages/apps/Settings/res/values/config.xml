@@ -34,6 +34,9 @@
 	
     <!-- Whether to show the Preference for Adaptive connectivity -->
     <bool name="config_show_adaptive_connectivity">true</bool>
+	
+	<!-- Show Now Playing -->
+    <bool name="config_show_now_playing">true</bool>
 
     <!-- The package names which can request thermal mitigation. -->
     <string-array name="thermal_mitigation_allowlisted_packages" translatable="false">
