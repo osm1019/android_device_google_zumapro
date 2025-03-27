@@ -706,6 +706,7 @@
         <item>device_personalization_services/NowPlaying__handle_ambient_music_results_with_history=true</item>
         <item>device_personalization_services/NowPlaying__min_training_interval_millis=86400000</item>
         <item>device_personalization_services/NowPlaying__nnfp_v3_model_enabled=true</item>
+		<item>device_personalization_services/NowPlaying__now_playing_allowed=true</item>
         <item>device_personalization_services/NowPlaying__on_demand_enable_eager_prompt=true</item>
         <item>device_personalization_services/NowPlaying__on_demand_fingerprinter_being_setup_warning=true</item>
         <item>device_personalization_services/NowPlaying__on_demand_hide_if_fingerprinter_install_not_confirmed=true</item>
