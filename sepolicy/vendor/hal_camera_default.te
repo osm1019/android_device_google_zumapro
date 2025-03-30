@@ -23,6 +23,7 @@ allow hal_camera_default edgetpu_app_service:service_manager find;
 binder_call(hal_camera_default, edgetpu_app_server)
 
 # Allow access to data files used by the camera HAL
+allow hal_camera_default aconfig_storage_metadata_file:dir search;
 allow hal_camera_default mnt_vendor_file:dir search;
 allow hal_camera_default persist_file:dir search;
 allow hal_camera_default persist_camera_file:dir rw_dir_perms;
